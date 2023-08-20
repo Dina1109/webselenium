@@ -79,5 +79,4 @@ public class NegativeDebitCardTest {
         driver.findElement(By.cssSelector("button.button")).click();
         assertTrue(driver.findElement(By.cssSelector("[data-test-id='agreement'].input_invalid")).isDisplayed());
     }
-
 }
